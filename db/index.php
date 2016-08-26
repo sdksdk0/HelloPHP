@@ -14,7 +14,7 @@
  * Time: 21:36
  */
 
-$conn=@mysqli_connect('localhost','zp','a');
+$conn=mysql_connect('localhost','zp','a');
 if($conn){
    // echo '连接成功';
     mysql_select_db('day15',$conn);
@@ -27,7 +27,7 @@ if($conn){
         print_r(mysqli_fetch_assoc($result));
     }*/
 
-    $result_arr=mysqli_fetch_array($result);
+    $result_arr=mysql_fetch_array($result);
     echo  '数据条数：'.$result_arr[0];
 
 
