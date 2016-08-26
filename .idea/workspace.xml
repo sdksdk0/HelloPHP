@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70bfbccc-af35-4dc8-8b68-9dcd56855728" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/alluser.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/alluser.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/function.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/adduser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/db.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/deleteuser.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/update_server.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/updateuser.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/index.php" afterPath="$PROJECT_DIR$/db/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/alluser.php" afterPath="$PROJECT_DIR$/db/alluser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/function.php" afterPath="$PROJECT_DIR$/db/function.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/db/alluser.html" afterPath="$PROJECT_DIR$/db/adduser.html" />
     </list>
     <ignored path="HelloPHP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,38 +44,7 @@
     <favorites_list name="HelloPHP" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.4117646">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alluser.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/alluser.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5803922">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.088235">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,10 +94,16 @@
         <option value="$PROJECT_DIR$/cookieAndSession/session.php" />
         <option value="$PROJECT_DIR$/cookieAndSession/b.php" />
         <option value="$PROJECT_DIR$/db/config.php" />
-        <option value="$PROJECT_DIR$/db/function.php" />
         <option value="$PROJECT_DIR$/db/index.php" />
-        <option value="$PROJECT_DIR$/db/alluser.php" />
         <option value="$PROJECT_DIR$/db/alluser.html" />
+        <option value="$PROJECT_DIR$/db/function.php" />
+        <option value="$PROJECT_DIR$/db/adduser.html" />
+        <option value="$PROJECT_DIR$/db/adduser.php" />
+        <option value="$PROJECT_DIR$/db/update_server.php" />
+        <option value="$PROJECT_DIR$/db/updateuser.php" />
+        <option value="$PROJECT_DIR$/db/alluser.php" />
+        <option value="$PROJECT_DIR$/db/deleteuser.php" />
+        <option value="$PROJECT_DIR$/db/db.sql" />
       </list>
     </option>
   </component>
@@ -139,10 +117,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1001" />
-    <option name="y" value="102" />
+    <option name="x" value="478" />
+    <option name="y" value="112" />
     <option name="width" value="1396" />
-    <option name="height" value="804" />
+    <option name="height" value="793" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -176,30 +154,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="HelloPHP" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HelloPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HelloPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HelloPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HelloPHP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -289,13 +243,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1001" y="102" width="1396" height="804" extended-state="0" />
-    <editor active="true" />
+    <frame x="478" y="112" width="1396" height="793" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2835596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.14253394" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10419907" sideWeight="0.5030166" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10601266" sideWeight="0.5030166" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295626" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.4969834" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4287671" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -587,14 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.088235">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6238004">
@@ -602,20 +548,6 @@
           <folding>
             <element signature="e#114#193#0#PHP" expanded="true" />
             <marker date="1472194122915" expanded="true" signature="329:359" placeholder="SELECT count..phpuser..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/alluser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47984645">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#261#340#0#PHP" expanded="true" />
-            <marker date="1472195371467" expanded="true" signature="419:440" placeholder="select * fro..phpuser..." />
-            <marker date="1472195371467" expanded="true" signature="514:642" placeholder="..." />
-            <marker date="1472195371467" expanded="true" signature="514:836" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -628,11 +560,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/alluser.html">
+    <entry file="file://$PROJECT_DIR$/db/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5803922">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.6862745">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/adduser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7014028">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/adduser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6292585">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <marker date="1472197642502" expanded="true" signature="442:496" placeholder="insert into phpuser..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.15">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/update_server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2985972">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <marker date="1472199420579" expanded="true" signature="499:553" placeholder="update phpus..." />
+            <marker date="1472199420579" expanded="true" signature="499:554" placeholder="update phpus..." />
+            <marker date="1472199420579" expanded="true" signature="499:555" placeholder="update phpus..." />
+            <marker date="1472199420579" expanded="true" signature="499:558" placeholder="update phpus..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/deleteuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5490982">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#6#85#0#PHP" expanded="true" />
+            <marker date="1472199691276" expanded="true" signature="167:202" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/alluser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6993988">
+          <caret line="37" column="118" selection-start-line="37" selection-start-column="108" selection-end-line="37" selection-end-column="118" />
+          <folding>
+            <element signature="e#304#383#0#PHP" expanded="true" />
+            <marker date="1472199533617" expanded="true" signature="466:487" placeholder="select * fro..phpuser..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/updateuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5511022">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#151#230#0#PHP" expanded="true" />
+            <marker date="1472199489429" expanded="true" signature="411:444" placeholder="select * fro..phpuser..." />
+            <marker date="1472199489429" expanded="true" signature="411:445" placeholder="select * fro..phpuser..." />
+          </folding>
         </state>
       </provider>
     </entry>

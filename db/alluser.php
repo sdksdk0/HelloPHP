@@ -8,8 +8,10 @@ require_once 'function.php';
     <title>Title</title>
 </head>
 <body>
+
+<a href="adduser.html" >添加</a>
 <table width='100%'  style='text-align: center;' border='1' >
-    <tr><th>id</th><th>用户名</th><th>密码</th></tr>
+    <tr><th>id</th><th>用户名</th><th>密码</th><th>操作</th></tr>
 <?php
 /**
  * Created by PhpStorm.
@@ -19,7 +21,7 @@ require_once 'function.php';
  */
 
     $conn=connecDB();
-    mysql_select_db("day15");
+   /* mysql_select_db("day15");*/
     $result=mysql_query("select * from phpuser",$conn);
     $dataCount=mysql_num_rows($result);
   //  echo $dataCount;
@@ -33,7 +35,7 @@ require_once 'function.php';
         $name=$result_arr['uname'];
         $pwd=$result_arr['pwd'];
 
-        echo "<tr><td>$id</td><td>$name</td><td>$pwd</td></tr>";
+        echo "<tr><td>$id</td><td>$name</td><td>$pwd</td><td><a href='updateuser.php?id=$id'>修改</a><a href='deleteuser.php?id=$id'>删除</a></td></tr>";
 
     }
 ?>

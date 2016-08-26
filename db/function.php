@@ -8,6 +8,13 @@
 require_once 'config.php';
 
 function connecDB(){
-    return mysql_connect(MYSQL_HOST,MYSQL_USER,MYSQL_PW);
+    $conn=mysql_connect(MYSQL_HOST,MYSQL_USER,MYSQL_PW);
+
+    if(!$conn){
+        die('can\'t  connection db');
+    }
+
+    mysql_select_db('day15');
+    return  $conn;
 }
 
